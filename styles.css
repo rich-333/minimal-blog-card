@@ -5,5 +5,24 @@
 }
 
 * {
+    font-family: var(--font-family);
+}
+
+body {
     box-sizing: border-box;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.article__container {
+    background-color: #f6f5f5;
+    max-width: 336px;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
 }
