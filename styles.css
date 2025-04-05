@@ -44,3 +44,17 @@ body {
     color: #7C19EE;
     padding: 5px;
 }
+
+.article__title {
+    font-size: 1.1875rem;
+    font-weight: 600;
+}
+
+.article__paragraph{
+    color: #20293A;
+    font-size: .900rem;
+    font-weight: 300;
+    margin-top: -10px;
+    line-height: 1.375rem; 
+}
+
