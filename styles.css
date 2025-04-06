@@ -70,3 +70,15 @@ body {
     margin-top: 20px;
 }
 
+@media (max-width: 576px) {
+    .article__container {
+        max-width: 310px;
+        padding: 16px;
+    }
+
+    .article__img {
+        width: 100%;
+        
+    }
+}
+
