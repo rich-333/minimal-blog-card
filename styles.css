@@ -10,14 +10,14 @@
 
 body {
     box-sizing: border-box;
-    background-color: FAFAF9;
+    background-color: #FAFAF9;
 }
 
 .article {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .article__container {
@@ -43,7 +43,7 @@ body {
 
 .article__label {
     color: #7C19EE;
-    padding: 5px;
+    padding: 4px;
 }
 
 .article__title {
@@ -60,12 +60,13 @@ body {
 }
 
 .article__line {
-    border-top: 4px solid #fff;
-    margin-left: -20px;
-    margin-right: -20px;
+    border-top: 2px solid #FAFAF9;
+    margin-left: -17px;
+    margin-right: -17px;
 }
 
 .article__autor {
     font-size: .75rem;
     margin-top: 20px;
 }
+
